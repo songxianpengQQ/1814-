@@ -40,3 +40,15 @@ no commits yet      未能成功的提交过
 
 
 5.git diff 那里发生里改变
+
+6.git commit -m "一定要写注释" 在暂存区里把代码放入到本地仓库中产生版本；
+
+7.git reset --hard 版本号 版本还原；
+
+8.git log 查看版本号信息；
+  git reflog 查看简要版本信息；
+
+9. ** git remote add origin 项目路径；
+	git remote 远程仓库设置；设置成add名字叫做origin（代表项目路径）项目路径；
+
+10.git push -u origin master; 本地仓库推送到远端仓库；
